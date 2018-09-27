@@ -9,14 +9,10 @@ int fib(const int i) {
 }
 
 int main() {
-	std::cout << fib(1) << std::endl;
-	std::cout << fib(2) << std::endl;
-	std::cout << fib(3) << std::endl;
-	std::cout << fib(4) << std::endl;
-	std::cout << fib(5) << std::endl;
-	std::cout << fib(6) << std::endl;
-	std::cout << fib(7) << std::endl;
-
+	for (int i = 0; i < 10; ++i){
+		std::cout << fib(i) << std::endl;
+	}
+	
 	system("pause");
 	return 0;
 }
